@@ -1,0 +1,42 @@
+
+.container{
+  background-color: red;
+  padding:40px;
+  text-align: center;
+  color: white;
+}
+
+.inp{
+  padding: 12px;
+  width: 80%;
+}
+
+#btn{
+  padding: 12px;
+  width: 14%;
+}
+
+
+/* .spanstyle{
+ padding: 17px;
+ width: 184vh;
+ text-align: left;
+ 
+ 
+} */
+
+#btn2{
+  padding: 17px;
+  width: 12%;
+ 
+  
+}
+.todo-container {
+   background-color:lightgrey;
+   padding: 15px;
+}
+
+
+
+
+
