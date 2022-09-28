@@ -5,8 +5,10 @@ export default function AddTodo({addTodo}) {
     const [title,setTitle]=useState('');
     
     const submit=(e)=>{e.preventDefault()
-
-        addTodo(title)
+        if(title){
+            addTodo(title)
+        }
+        
     }
     
     return (
