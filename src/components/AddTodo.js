@@ -8,6 +8,9 @@ export default function AddTodo({addTodo}) {
         if(title){
             addTodo(title)
         }
+        else{
+            alert("Please enter your task first")
+        }
         
     }
     
